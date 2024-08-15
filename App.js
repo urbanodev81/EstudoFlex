@@ -19,14 +19,18 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
-    alignItems: 'flex-start'
+    alignItems: 'flex-start',
+    flexWrap: 'wrap',
+    alignContent: 'stretch',
   },
   caixaAzul: {
     width: 100,
     height: 100,
     backgroundColor: 'blue',
     margin: 10,
-    alignSelf:'flex-end'
+    alignSelf:'flex-end',
+    flexBasis:300,
+    
   },
   caixaVermelha: {
     width: 100,
@@ -39,5 +43,7 @@ const styles = StyleSheet.create({
     height: 100,
     backgroundColor: 'green',
     margin: 10,
+    flexGrow:1,
+
   },
 });
